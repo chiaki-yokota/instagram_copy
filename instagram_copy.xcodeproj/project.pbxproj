@@ -16,6 +16,13 @@
 		76186545289659E200FEDD44 /* instagram_copyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76186544289659E200FEDD44 /* instagram_copyTests.swift */; };
 		7618654F289659E200FEDD44 /* instagram_copyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7618654E289659E200FEDD44 /* instagram_copyUITests.swift */; };
 		76186551289659E200FEDD44 /* instagram_copyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76186550289659E200FEDD44 /* instagram_copyUITestsLaunchTests.swift */; };
+		7618656428965A1100FEDD44 /* parse-library-1.8.2 in Resources */ = {isa = PBXBuildFile; fileRef = 7618655D28965A1100FEDD44 /* parse-library-1.8.2 */; };
+		7618656528965A1100FEDD44 /* ダミーデータ in Resources */ = {isa = PBXBuildFile; fileRef = 7618655E28965A1100FEDD44 /* ダミーデータ */; };
+		7618656628965A1100FEDD44 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 7618655F28965A1100FEDD44 /* image */; };
+		7618656728965A1100FEDD44 /* Spring in Resources */ = {isa = PBXBuildFile; fileRef = 7618656028965A1100FEDD44 /* Spring */; };
+		7618656828965A1100FEDD44 /* extensions in Resources */ = {isa = PBXBuildFile; fileRef = 7618656128965A1100FEDD44 /* extensions */; };
+		7618656928965A1100FEDD44 /* ImagePickerSheet in Resources */ = {isa = PBXBuildFile; fileRef = 7618656228965A1100FEDD44 /* ImagePickerSheet */; };
+		7618656A28965A1100FEDD44 /* FloatingButton in Resources */ = {isa = PBXBuildFile; fileRef = 7618656328965A1100FEDD44 /* FloatingButton */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		7618654A289659E200FEDD44 /* instagram_copyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagram_copyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7618654E289659E200FEDD44 /* instagram_copyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_copyUITests.swift; sourceTree = "<group>"; };
 		76186550289659E200FEDD44 /* instagram_copyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_copyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7618655D28965A1100FEDD44 /* parse-library-1.8.2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "parse-library-1.8.2"; sourceTree = "<group>"; };
+		7618655E28965A1100FEDD44 /* ダミーデータ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ダミーデータ"; sourceTree = "<group>"; };
+		7618655F28965A1100FEDD44 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		7618656028965A1100FEDD44 /* Spring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Spring; sourceTree = "<group>"; };
+		7618656128965A1100FEDD44 /* extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extensions; sourceTree = "<group>"; };
+		7618656228965A1100FEDD44 /* ImagePickerSheet */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ImagePickerSheet; sourceTree = "<group>"; };
+		7618656328965A1100FEDD44 /* FloatingButton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FloatingButton; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				76186536289659E200FEDD44 /* Assets.xcassets */,
 				76186538289659E200FEDD44 /* LaunchScreen.storyboard */,
 				7618653B289659E200FEDD44 /* Info.plist */,
+				7618656128965A1100FEDD44 /* extensions */,
+				7618656328965A1100FEDD44 /* FloatingButton */,
+				7618655F28965A1100FEDD44 /* image */,
+				7618656228965A1100FEDD44 /* ImagePickerSheet */,
+				7618655D28965A1100FEDD44 /* parse-library-1.8.2 */,
+				7618656028965A1100FEDD44 /* Spring */,
+				7618655E28965A1100FEDD44 /* ダミーデータ */,
 			);
 			path = instagram_copy;
 			sourceTree = "<group>";
@@ -231,8 +252,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7618656628965A1100FEDD44 /* image in Resources */,
+				7618656428965A1100FEDD44 /* parse-library-1.8.2 in Resources */,
+				7618656828965A1100FEDD44 /* extensions in Resources */,
 				7618653A289659E200FEDD44 /* LaunchScreen.storyboard in Resources */,
+				7618656928965A1100FEDD44 /* ImagePickerSheet in Resources */,
+				7618656728965A1100FEDD44 /* Spring in Resources */,
+				7618656528965A1100FEDD44 /* ダミーデータ in Resources */,
 				76186537289659E200FEDD44 /* Assets.xcassets in Resources */,
+				7618656A28965A1100FEDD44 /* FloatingButton in Resources */,
 				76186535289659E000FEDD44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
